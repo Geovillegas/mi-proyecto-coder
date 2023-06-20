@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px
+}
+
+nav a {
+    margin-left: 0px;
+}
+
+
+header {
+    display: flex;
+    height: 200px;
+    background-color: rgb(52, 69, 77);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img {
+    height: 500px;
+    margin-left: 60px;
+    margin-top: 50px;
+
+}
+
+nav a {
+    font-weight: 800px;
+    padding-right: 50px;
+
+}
+
+.contacto {
+    display: flex;
+}
+
+.logow {
+    width: 80px;
+    margin-left: 50px;
+}
+
+.buscar {
+    position: absolute;
+    padding: 10px;
+    margin-top: -15px;
+    margin-left: -150px;
+}
+
+.buscar input {
+    margin-top: -70px;
+    width: 350px;
+    height: 40px;
+    padding: 0 30px;
+    font-size: 18px;
+    color: black;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+
+}
+
+footer {
+    background-color: rgb(52, 69, 77);
+    width: 100%;
+    height: 300px;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+
+}
+
+.piedepagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid: 50px;
+    padding: 45px 0px;
+}
+
+.pidepagina .grupo-1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.piedepagina .grupo-1 .box figure {
+    width: 250px;
+
+}
+
+.piedepagina .grupo-1 .box h2 {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+.piedepagina .grupo-1 .box p {
+    color: blanchedalmond;
+    margin-bottom: px;
+}
+
+
+.piedepagina .grupo-1 .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 25px;
+    height: 45px;
+    width: 0px;
+    line-height: 45px;
+    padding-left: 32px;
+    color: rgb(255, 255, 255);
+    margin-right: 5px;
+    background-color: rgb(89, 102, 109);
+    transition: all 300ms ease;
+
+
+}
+
+.piedepagina .grupo-1 .red-social a:hover {
+    color: aqua;
+}
+
+.piedepagina .grupo-2 {
+    background-color: rgb(31, 106, 146);
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+}
+
+.piedepagina .grupo-2 small {
+    font-size: 15px;
+}
+
+@media screen and (max-width:800px) {}
+
+header .contacto .titulo1 {
+    padding: 50px;
+    background-color: rgb(52, 69, 77);
+    text-align: center;
+
+}
+
+
+.contactos {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(89, 102, 109);
+}
+
