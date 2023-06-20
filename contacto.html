@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f35db5820b.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+
+    <style>
+        header {
+            padding: 10px;
+            background-color: rgb(52, 69, 77);
+            text-align: center;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+
+        aside {
+            flex: 50px;
+            background-color: rgb(255, 255, 255);
+            padding: 40px;
+
+        }
+
+
+        .ubi {
+
+            color: rgb(52, 69, 77);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            display: block;
+            margin: 300px;
+        }
+
+        section {
+            flex: 50px;
+            padding: 0px;
+            margin-left: 50%;
+            margin-right: 30px;
+            margin-top: -1260px;
+            border-radius: 30px;
+            background-color: rgb(255, 255, 255);
+
+        }
+
+        .ubicacion {
+            flex: 50px;
+            margin-left: 65%;
+            margin-top: -250px;
+
+        }
+
+        .ubi p{
+            color: rgb(52, 69, 77);
+            font-size: 18px;
+            margin-left: 30px;
+            margin-top: -30px;
+        }
+
+        .ubi a{
+            color: rgb(52, 69, 77);
+text-decoration: none;
+
+        }
+        .contactos {
+            display: flex;
+            flex-direction: row;
+            background-color: rgb(89, 102, 109);
+        }
+
+        .contactos a {
+            font-size: 25px;
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            display: flex;
+            margin-left: 350px;
+            margin-top: 20px;
+        }
+
+
+        .contactos p {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            display: flex;
+            margin-left: 30px;
+            margin-left: 10px;
+
+        }
+
+
+        form {
+            padding: 50px 55px;
+            box-shadow: 0 0 20px rgb(52, 69, 77);
+            border-radius: 20px;
+            text-align: center;
+            width: 340px;
+
+        }
+
+        .input {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+
+
+        }
+
+        h2 {
+            color: rgb(52, 69, 77);
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+
+        label {
+            color: rgb(52, 69, 77);
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        input,
+        textarea {
+            padding: 17px 25px;
+            border-radius: 25px;
+            margin-bottom: 20px;
+            background-color: rgb(160, 178, 187);
+            border: 2px solid rgb(183, 206, 219);
+            color: rgb(89, 102, 109);
+            outline: none;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        input::placeholder,
+        textarea::placeholder {
+            color: rgb(52, 69, 77);
+
+        }
+
+        form .politicas {
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+        }
+
+        form .politicas a {
+            color: rgb(52, 69, 77);
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+
+        }
+
+        .btn {
+            font-size: 16px;
+            color: white;
+            border: 0;
+            border-radius: 25px;
+            background-color: rgb(52, 69, 77);
+            box-shadow: 0 0 20px rgb(89, 102, 109);
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: rgb(89, 102, 109);
+        }
+
+        .volver-al-index a{
+            color: rgb(52, 69, 77);
+            text-decoration: none;
+            font-size: 30px;
+            background-color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;   
+            text-align: center;
+
+        }
+
+       
+    </style>
+
+
+</head>
+
+<body>
+
+       <nav class="volver-al-index">
+        <a href="../index.html" class="fa fa-arrow-left"></a>
+ </nav>
+
+    <header>
+
+        <h1 class="titulo">Contacto</h1>
+
+    </header>
+
+    <div class="contactos">
+
+
+        <a href="#" class="fa fa-phone"></a>
+        <p>1010 0011</p>
+        <a href="#" class="fa fa-envelope"></a>
+        <p>delta.uy@gmail.com</p>
+        <a href="#" class="fa fa-thumbs-up"></a>
+        <p>@delta.uy</p>
+
+
+    </div>
+
+
+    <div>
+        <aside>
+            <h2>Contactanos</h2>
+
+            <form>
+                <div class="input">
+
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+
+                    <label for="apellido">Apellido</label>
+                    <input type="text" name="apellido" id="apellido" placeholder="Apellido">
+
+                    <label for="celular">Celular</label>
+                    <input type="text" name="celular" id="celular" placeholder="Celular">
+
+                    <label for="correo">Correo</label>
+                    <input type="text" name="correo" id="imail" placeholder="Correo">
+
+                    <label for="consulta">Consulta</label>
+                    <textarea name="consulta" id="consulta" cols="30" rows="10" placeholder="Consulta"></textarea>
+
+                    <div class="politicas">
+                        <a href="#">Políticas de privacidad</a>
+                        <a href="#">Términos y condiciones</a>
+                    </div>
+                    <input class="btn" type="enviar" value="Enviar">
+
+                </div>
+            </form>
+
+        </aside>
+
+
+        <section>
+            <nav class="ubi">
+                <h3>Casa central</h3>
+
+                <nav class="icon">
+                    <a href="#" class="fa fa-location-dot"></a>
+                    <p>Héctor Gutierrez Ruíz 937, Montevideo.</p>
+
+                    <h3>Sucursal</h3>
+
+                    <a href="#" class="fa fa-location-dot"></a>
+                    <p> Colonia 122 y Beracierto, Montevideo.</p>
+
+<h3>Horario</h3>
+
+                    <a href="#" class="fa fa-clock"></a>
+                    <p>Lunes a viernes 10 a 18 y Sábados de 10 a 13 hs.</p>
+
+
+                </nav>
+            </nav>
+        </section>
+
+        <nav class="ubicacion">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.764621419023!2d-56.193282624986345!3d-34.912355973862276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f81ce413a12eb%3A0xc0cce7154b682864!2sH%C3%A9ctor%20Guti%C3%A9rrez%20Ruiz%20937%2C%2011100%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses-419!2suy!4v1684693549058!5m2!1ses-419!2suy"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </nav>
+    </div>
+
+
+
+    <footer>
+
+    </footer>
+
+
+</body>
+
+</html>
